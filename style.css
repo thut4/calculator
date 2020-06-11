@@ -1,0 +1,24 @@
+.container{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: seagreen;
+    text-align: center;
+    max-width: 960px;
+    font-size: x-large;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-prmary{
+    width: fit-content;
+    width: 960px;
+    font-size: medium;
+}
+.btn-group{
+    max-width: 960px;
+    margin-top: 1%;
+    margin-bottom:1%;
+}
+.form-control-lg{
+    margin-top: 0.5%;
+}

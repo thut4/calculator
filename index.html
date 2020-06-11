@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <form id=reset>
+    <div class="container">
+        <input class="form-control-lg" type="number" id="num1" placeholder="Enter first number "  required><br>
+        <input class="form-control-lg" type="number" id="num2" placeholder="Enter second number " required><br>
+    <div class="btn-group" role="group">
+        <input type="button" class="btn-primary" value="Add" id='go' onclick="add()">
+        <input type="button" class="btn-primary" value="Sub" id='go' onclick="sub()">
+        <input type="button" class="btn-primary" value="Mul" id='go' onclick="mul()">
+        <input type="button" class="btn-primary" value="Div" id='go' onclick="div()">
+        <input type="button" class="btn-primary" value="Root"id='go' onclick="sqrt()">
+    </div><br>
+    <input class="form-control-lg" type="text" id="result" placeholder="Result  will shows herre " readonly>
+    <input type="button" class="btn-primary" value="Reset" onclick="reset()">
+</div>
+</form>>
+</body>
+</html>
